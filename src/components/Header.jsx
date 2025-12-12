@@ -45,7 +45,7 @@ function Header({ onSearch, movies }) {
 
         {/* MENU DESKTOP */}
         <nav className="hidden md:flex items-center space-x-6 pl-5">
-          <Link to="/" className="text-white hover:text-red-500">Home</Link>
+          <Link to="/home" className="text-white hover:text-red-500">Home</Link>
           <Link to="/about" className="text-white hover:text-red-500">About</Link>
           <Link to="/contact" className="text-white hover:text-red-500">Contact</Link>
         </nav>
