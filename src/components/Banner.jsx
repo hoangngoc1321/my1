@@ -21,8 +21,8 @@ const Banner = () => {
       <div className="absolute inset-0 flex flex-col md:flex-row justify-center md:justify-between items-center px-6 sm:px-10 md:px-16 lg:px-24 py-10">
         
         {/* LEFT CONTENT */}
-        <div className="w-full md:w-1/2 flex flex-col space-y-4 sm:space-y-6 text-center md:text-left">
-          <p className="bg-linear-to-r from-red-600 to-red-300 py-1.5 px-5 text-white font-semibold w-fit mx-auto md:mx-0 text-sm sm:text-base">
+        <div className="w-full md:w-1/2 flex flex-col space-y-1 sm:space-y-6 text-center md:text-left">
+          <p className="bg-linear-to-r from-red-600 to-red-300 py-1.5 px-5 text-white font-semibold w-fit mx-auto md:mx-0 text-sm sm:text-base rounded-2xl">
             TV Show
           </p>
 
