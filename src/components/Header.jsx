@@ -39,9 +39,11 @@ function Header({ onSearch, movies }) {
 
       {/* Logo + menu */}
       <div className="flex items-center space-x-4">
-        <h1 className="text-[26px] md:text-[30px] uppercase font-bold text-red-700">
+        <Link to="/">
+          <h1 className="text-[26px] md:text-[30px] uppercase font-bold text-red-700 cursor-pointer">
           Movie
-        </h1>
+          </h1>
+        </Link>
 
         {/* MENU DESKTOP */}
         <nav className="hidden md:flex items-center space-x-6 pl-5">
@@ -52,7 +54,7 @@ function Header({ onSearch, movies }) {
 
         {/* MENU MOBILE BUTTON */}
         <button
-          className="md:hidden text-white text-2xl"
+          className="md:hidden text-white text-3xl"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
